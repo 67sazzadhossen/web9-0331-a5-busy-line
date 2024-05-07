@@ -113,7 +113,495 @@
                 </button>
             </div>
         </div>
+
+
+        <!-- Seat Section -->
+
+        <div id="ticket-section-container"
+            class="bg-slate-100 mt-20 rounded-t-3xl border-t-2 border-solid border-green-500">
+            <h1 class="font-bold text-4xl text-center mt-28">T-Tickets</h1>
+            <p class="font-normal text-lg text-center mt-8">
+                Experience seamless ticket booking at T-Tickets counter – your
+                one-stop destination for stress-free travel arrangements! 🎟️🚌
+            </p>
+            <div class="mx-32 bg-white mt-20 rounded-2xl">
+                <div class="flex p-10">
+                    <div class="card-section-1 w-4/5">
+                        <div class="card-title-container flex flex-col justify-between space-y-10">
+                            <div class="flex justify-between">
+                                <div class="card-left-side flex gap-4">
+                                    <div class="bg-center mt-2">
+                                        <img src="images/bus-logo.png" alt="" />
+                                    </div>
+                                    <div class="">
+                                        <h2 class="font-bold text-3xl">Greenline Paribahan</h2>
+                                        <p class="text-gray-500">Coach-009-WEB ! AC_Business</p>
+                                    </div>
+                                </div>
+                                <div class="card-right-side text-lg">
+                                    <button class="btn no-animation border-none text-green-600 bg-green-200 hover:bg-green-200">
+                                        <img src="images/seat-green.png" alt="" />
+                                        <span class="text-sm" id="seat-number">8</span>Seats left
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-body-section-container rounded-2xl bg-gray-200 p-10">
+                                <div class="row-1 flex justify-between">
+                                    <p>Route</p>
+                                    <p>Dhaka-Sylhet</p>
+                                </div>
+                                <div class="border border-dashed border-gray-400 mt-6"></div>
+                                <div class="row-2 flex justify-between mt-6">
+                                    <p>Departure Time</p>
+                                    <p>9:00 PM</p>
+                                </div>
+                                <div class="border border-dashed border-gray-400 mt-6"></div>
+                                <div class="row-3 mt-6 flex justify-evenly gap-3">
+                                    <button class="btn btn-outline flex-1">
+                                        Boarding Point - Laxmipur
+                                    </button>
+                                    <button class="btn btn-outline flex-1">
+                                        Dropping Point - Bogura
+                                    </button>
+                                    <button class="btn btn-outline flex-1">
+                                        Est. Time - 11 Hour
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider-img">
+                        <img src="images/info-devider.png" alt="" />
+                    </div>
+                    <div class="card-section-2 w-1/5 flex justify-center items-center">
+                        <div class="flex flex-col justify-center items-center">
+                            <div>
+                                <img src="images/fare.png" alt="" />
+                            </div>
+                            <div>
+                                <h1 class="font-extrabold text-4xl text-center">
+                                    550 Taka <br />
+                                    Per Seat
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white mx-32 mt-20 rounded-2xl pr-10">
+                <div class="flex gap-10 justify-between p-10 my-10">
+                    <div class="w-3/5">
+                        <h1 class="text-2xl font-semibold">Select Your Seat</h1>
+                        <div class="border border-dashed border-gray-400 my-6"></div>
+                        <div class="row-1 flex justify-between">
+                            <div class="available flex gap-4">
+                                <img src="images/seat-gray.png" alt="" />
+                                <h3>Available</h3>
+                            </div>
+                            <div class="selected flex gap-4">
+                                <img src="images/seat-green-filled.png" alt="" />
+                                <h3>Selected</h3>
+                            </div>
+                        </div>
+                        <div class="border border-dashed border-gray-400 mt-6"></div>
+                        <div class="flex justify-end my-8">
+                            <button class="btn no-animation border-none bg-slate-100 hover:bg-slate-100">
+                                <img class="p-3" src="images/steering-wheel-icon.svg" alt="" />
+                            </button>
+                        </div>
+                        <div id="seat-container-box" class="seat-container-box space-y-10">
+                            <div class="container-box flex justify-between gap-20">
+                                <div class="flex justify-around w-3/4">
+                                    <button class="btn bg-white no-animation hover:bg-white border-none">
+                                        A
+                                    </button>
+                                    <button
+                                        class="mx-8 btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        A1
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        A2
+                                    </button>
+                                </div>
+                                <div class="second-colm flex justify-between w-1/2">
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        A3
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        A4
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container-box flex justify-between gap-20">
+                                <div class="first-colm flex justify-around w-3/4">
+                                    <button class="btn bg-white no-animation hover:bg-white border-none">
+                                        B
+                                    </button>
+                                    <button
+                                        class="mx-8 btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        B1
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        B2
+                                    </button>
+                                </div>
+                                <div class="second-colm flex justify-between w-1/2">
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        B3
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        B4
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container-box flex justify-between gap-20">
+                                <div class="first-colm flex justify-around w-3/4">
+                                    <button class="btn bg-white no-animation hover:bg-white border-none">
+                                        C
+                                    </button>
+                                    <button
+                                        class="mx-8 btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        C1
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        C2
+                                    </button>
+                                </div>
+                                <div class="second-colm flex justify-between w-1/2">
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        C3
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        C4
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container-box flex justify-between gap-20">
+                                <div class="first-colm flex justify-around w-3/4">
+                                    <button class="btn bg-white no-animation hover:bg-white border-none">
+                                        D
+                                    </button>
+                                    <button
+                                        class="mx-8 btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        D1
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        D2
+                                    </button>
+                                </div>
+                                <div class="second-colm flex justify-between w-1/2">
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        D3
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        D4
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container-box flex justify-between gap-20">
+                                <div class="first-colm flex justify-around w-3/4">
+                                    <button class="btn bg-white no-animation hover:bg-white border-none">
+                                        E
+                                    </button>
+                                    <button
+                                        class="mx-8 btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        E1
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        E2
+                                    </button>
+                                </div>
+                                <div class="second-colm flex justify-between w-1/2">
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        E3
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        E4
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container-box flex justify-between gap-20">
+                                <div class="first-colm flex justify-around w-3/4">
+                                    <button class="btn bg-white no-animation hover:bg-white border-none">
+                                        F
+                                    </button>
+                                    <button
+                                        class="mx-8 btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        F1
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        F2
+                                    </button>
+                                </div>
+                                <div class="second-colm flex justify-between w-1/2">
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        F3
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        F4
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container-box flex justify-between gap-20">
+                                <div class="first-colm flex justify-around w-3/4">
+                                    <button class="btn bg-white no-animation hover:bg-white border-none">
+                                        G
+                                    </button>
+                                    <button
+                                        class="mx-8 btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        G1
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        G2
+                                    </button>
+                                </div>
+                                <div class="second-colm flex justify-between w-1/2">
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        G3
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        G4
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container-box flex justify-between gap-20">
+                                <div class="first-colm flex justify-around w-3/4">
+                                    <button class="btn bg-white no-animation hover:bg-white border-none">
+                                        H
+                                    </button>
+                                    <button
+                                        class="mx-8 btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        H1
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        H2
+                                    </button>
+                                </div>
+                                <div class="second-colm flex justify-between w-1/2">
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        H3
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        H4
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container-box flex justify-between gap-20">
+                                <div class="first-colm flex justify-around w-3/4">
+                                    <button class="btn bg-white no-animation hover:bg-white border-none">
+                                        I
+                                    </button>
+                                    <button
+                                        class="mx-8 btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        I1
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        I2
+                                    </button>
+                                </div>
+                                <div class="second-colm flex justify-between w-1/2">
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        I3
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        I4
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="container-box flex justify-between gap-20">
+                                <div class="first-colm flex justify-around w-3/4">
+                                    <button class="btn bg-white no-animation hover:bg-white border-none">
+                                        J
+                                    </button>
+                                    <button
+                                        class="mx-8 btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        J1
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        J2
+                                    </button>
+                                </div>
+                                <div class="second-colm flex justify-between w-1/2">
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        J3
+                                    </button>
+                                    <button
+                                        class="btn bg-slate-100 hover:bg-green-500 hover:text-white w-16 ml-4 text-gray-500 font-bold py-2 px-14 rounded seat-btn">
+                                        J4
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-l border-dashed border-gray-400 mt-6"></div>
+                    <div class="w-2/5">
+                        <h1 class="text-2xl font-semibold mb-6">Select Your Seat</h1>
+                        <div class="table-section bg-slate-100 rounded-xl p-8">
+                            <div class="overflow-x-auto">
+                                <table class="table">
+                                    <!-- head -->
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <span class="text-black">Seat</span>
+                                                <span id="seat-number-table"
+                                                    class="bg-green-400 text-gray-100 px-2 rounded-xl">0</span>
+                                            </th>
+                                            <th><span class="text-black">Class</span></th>
+                                            <th><span class="text-black">Price</span></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="table-body">
+                                        <!-- <tr>
+        												<td>hey</td>
+        												<td>1</td>
+        												<td>2</td>
+        											</tr> -->
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="border-b border-dashed border-gray-400"></div>
+                            <div class="overflow-x-auto">
+                                <table class="table">
+                                    <!-- head -->
+                                    <thead>
+                                        <tr class="flex justify-between">
+                                            <th>
+                                                <span class="text-black text-xl">Base Total</span>
+                                            </th>
+                                            <th>
+                                                <span id="base-total-price" class="text-black text-xl pr-14">0</span>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <div id="apply-coupon-input-field" class="p-4">
+                                <label class="input input-bordered flex items-center justify-between gap-2">
+                                    <input id="coupon-field" type="text" placeholder="Have any Coupon?" />
+                                    <button id="apply-btn"
+                                        class="py-1 px-4 rounded-lg ml-9 text-lg text-white bg-green-500 border-none active:bg-green-600 hover:bg-green-600">
+                                        Apply
+                                    </button>
+                                    <!-- <button
+        											class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded"
+        										>
+        											Click me
+        										</button> -->
+                                </label>
+                            </div>
+                            <div class="border-b border-dashed border-gray-400"></div>
+                            <div class="overflow-x-auto">
+                                <table class="table">
+                                    <!-- head -->
+                                    <thead>
+                                        <tr class="flex justify-between">
+                                            <th>
+                                                <span class="text-black text-xl">Grand Total</span>
+                                            </th>
+                                            <th>
+                                                <span id="grand-total-price" class="text-black text-xl pr-14">0</span>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="table-form space-y-5 mt-6">
+                            <label class="form-control">
+                                <div class="label">
+                                    <span class="label-text text-lg">Passenger Name</span>
+                                </div>
+                                <input type="text" placeholder="Enter Your name" class="input input-bordered" />
+                            </label>
+                            <label class="form-control">
+                                <div class="label">
+                                    <span class="label-text text-lg">Phone Number*</span>
+                                </div>
+                                <input type="text" placeholder="Enter Your Phone number" class="input input-bordered" />
+                            </label>
+                            <label class="form-control">
+                                <div class="label">
+                                    <span class="label-text text-lg">E-mail ID</span>
+                                </div>
+                                <input type="text" placeholder="Enter Your email ID" class="input input-bordered" />
+                            </label>
+                            <!-- modal button -->
+                            <!-- Open the modal using ID.showModal() method -->
+                            <button
+                                class="btn w-full text-white bg-green-500 border-none active:bg-green-600 hover:bg-green-600"
+                                onclick="my_modal_1.showModal()">
+                                Next
+                            </button>
+                            <dialog id="my_modal_1" class="modal">
+                                <div class="modal-box flex flex-col items-center justify-center gap-4">
+                                    <img src="images/success.png" alt="" />
+                                    <h3 class="font-bold text-lg">SUCCESS</h3>
+                                    <div class="flex flex-col items-center justify-center">
+                                        <span class="font-bold text-center">Thank you for Booking Our Bus Seats.
+                                        </span>
+                                        <span class="font-bold text-center">We are working hard to find the best service and
+                                            deals.</span>
+                                        Shortly you will find a confirmation in your email.
+                                    </div>
+                                    <div class="modal-action">
+                                        <form method="dialog">
+                                            <!-- if there is a button in form, it will close the modal -->
+                                            <button id="continue-btn"
+                                                class="btn px-20 text-sm text-white bg-green-500 border-none active:bg-green-600 hover:bg-green-600">
+                                                Continue
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </dialog>
+                            <!-- <button
+        									class="btn text-white text-2xl bg-green-500 border-none active:bg-green-600 hover:bg-green-600 w-full"
+        								>
+        									Next
+        								</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+
+
+
+    <!-- script section -->
+		<script src="navigation.js"></script>
+		<script src="seat_selection.js"></script>
+		<script src="price.js"></script>
 
 </body>
 
